@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,700,700italic,500&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,400italic,500,700,700italic&subset=latin,cyrillic);
+@import url(animate.css);
+@import url(bootstrap.css);
+@import url(font-awesome.css);
+@import url(jquery.fancybox.css);
+@import url(settings.css);
+@import url(jquery-ui.css);
+@import url(lightgallery.min.css);
+@import url(style.css);
+
+.fontawesome-icon-list .fa-hover {
+    display: block;
+    height: 32px;
+    color: #333;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: default;
+    border-radius: 4px;
+}
+.fontawesome-icon-list .fa-hover:hover{
+    color: #fff;
+    background: #21282E;
+}
+.fontawesome-icon-list .fa-hover:hover .fa{
+    font-size: 28px;
+    vertical-align: -6px;
+}
+#uEntriesList .entTd {
+    display: inline-block!important;
+}
+
